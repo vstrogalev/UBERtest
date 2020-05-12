@@ -1,0 +1,278 @@
+@media (max-width: 1200px)
+	.menu
+		&_item
+			padding-right: 20px
+		&_link
+			font-size: 13px
+	.promo
+		&_header
+			font-size: 50px
+	.subheader_under_opportunities
+		font-size: 35px
+	.reasons
+		&_text
+			width: 300px
+		&_item
+			align-items: flex-start
+
+	.mobile
+		&_item
+			width: 300px
+
+	.footer
+		&_main_menu_item
+			font-size: 12px
+		&_submenu_item
+			font-size: 10px  
+		&_mobile_soft
+			width: 250px
+			right: 10px
+			&_ico
+				width: 80px
+		
+@media (max-width: 991px)
+	.menu
+		&_item
+			padding-right: 8px
+		&_link
+			font-size: 10px  
+
+	.subheader
+		&_logo_img img
+			width: 95%
+		&_logo_text
+			font-size: 10px
+		&_phone_number
+			font-size: 18px
+		&_call_us_btn
+			margin-top: 21px
+			height: 40px
+			width: 100%
+
+	.promo
+		&_header
+			font-size: 40px
+		&_subheader
+			font-size: 30px
+		&_text
+			font-size: 15px
+
+	.reasons
+		&_text
+			margin-top: 20px
+			width: 300px
+		&_item
+			flex-direction: column
+			align-items: center
+	.car
+		img 
+			width: 100%
+	.footer  
+		height: 250px
+		&_social_networks
+			top: 100px
+			left: 50%
+			transform: translateX(-50%)
+		&_language
+			bottom: 116px
+		&_mobile_soft
+			top: 140px
+			left: 50%
+			transform: translateX(-50%)
+
+@media ( max-width: 767px )
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0,0 ,0 ,0.8)
+		transition: 0.6s all
+		&_active
+			left: 0
+		&_item
+			margin-top: 10px
+			padding-right: 0
+			border: none
+		&_link
+			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 27px
+		height: 18px
+		span
+			display: block
+			width: 100%
+			height: 2px
+			background-color: #ffffff
+			margin: 4px 0
+			transition: 0.7s all
+		&_active
+			span
+				margin: -2px 0
+				&:nth-child(1)
+					transform: translateY(6px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(6px) rotate(45deg)
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+					
+	.subheader
+		&_phone_number
+			display: block
+			margin-top: 10px
+			color: #ffffff
+			font-size: 16px
+			font-weight: 400
+			text-transform: uppercase
+			text-align: center
+		&_call_us_btn
+			display: block
+			width: 150px
+			height: 30px
+			margin: 12px auto
+	.promo
+		&_header
+			line-height: 45px
+	.reasons
+		&_text
+			width: 450px
+	.car
+		min-height: 630px
+	.footer
+		height: 250px
+		&_social_networks
+			top: 100px
+			left: 50%
+			transform: translateX(-50%)
+		&_language
+			bottom: 116px
+		&_mobile_soft
+			left: 50%
+			transform: translateX(-50%)
+
+@media ( max-width: 575px )
+	header
+		height: 30px
+		width: 100%
+	nav
+		height: 30px
+		right: 0
+	.menu
+		width: 85%
+	.subheader
+		top: 30px
+		height: 60px
+		&_logo_text
+			display: none
+		&_logo_img
+			margin-top: 16px
+		&_phone_number
+			font-size: 12px
+			font-weight: 400
+			margin-top: 5px
+		&_call_us_btn
+			width: 110px
+			height: 22px
+			font-size: 10px
+			margin-top: 7px
+	.promo
+		min-height: 400px
+		padding: 73px 0 35px 0
+		&_header
+			margin-top: 53px
+			font-size: 35px
+			line-height: 40px
+		&_subheader
+			font-size: 20px
+			margin-top: 18px
+			line-height: 30px
+		&_text
+			display: none
+		&_btn
+			width: 210px
+			height: 50px
+			margin-top: 72px
+	.opportunities
+		margin: 0 auto
+	.subheader_under_opportunities
+		font-size: 15px
+		margin-top: 15px
+	.reasons
+		padding: 22px 0 36px 0
+		&_item
+			margin-top: 26px
+		&_icon
+			width: 100px
+			height: 100px
+		&_text
+			width: 280px
+			margin-top: 27px
+		&_ico_text
+			font-size: 16px
+	.mobile
+		padding-top: 15px
+	.car
+		min-height: 320px
+		.opportunities
+			top: 30px
+		.subheader_under_opportunities
+			display: none
+		.subtitle
+			display: none
+		&_text
+			position: absolute
+			padding: 0 20px
+			color: #ffffff
+			z-index: 5
+		&_top_bg
+			height: 360px
+	.req
+		padding-bottom: 0
+		&_list
+			font-size: 13px
+		&_item
+			margin: 12px 0 0 0
+		&_header
+			line-height: normal
+	.world
+		height: 360px
+		.opportunities
+			margin-bottom: 0
+		&_subtitle
+			margin-top: 0
+		&_cities_btn
+			line-height: 0
+			width: 200px
+			bottom: 30px
+	.footer
+		height: 260px
+		padding-top: 25px
+		&_upper_line
+			margin-top: 0
+		&_main_menu_item
+			padding: 0 5px
+			font-size: 14px
+			font-weight: 500
+		&_submenu_item
+			padding: 0 5px
+		&_language
+			bottom: 110px
+		&_social_networks_icon
+		    display: flex
+    		justify-content: center
+
+
